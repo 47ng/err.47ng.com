@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const config = {
   redirects: async () => [
     {
       source: '/NUQS-:code(\\d{3})',
@@ -10,4 +10,4 @@ const nextConfig = {
   ],
 }
 
-module.exports = nextConfig
+export default config
